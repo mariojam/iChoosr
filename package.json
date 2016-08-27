@@ -1,0 +1,19 @@
+{
+  "name": "ichoosr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss website/style/style.scss website/style/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^1.11.3",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.10.2"
+  }
+}
